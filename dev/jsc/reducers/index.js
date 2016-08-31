@@ -1,6 +1,8 @@
-//import 'babel-polyfill';   
-import React from 'react';
-import ReactDOM from 'react-dom';  
-import App from '../components/app.js';
+import {combineReducers} from 'redux';
+import UserReducer from './reducer-users';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const allReducers = combineReducers({
+  users: UserReducer
+});
+
+export default allReducers;

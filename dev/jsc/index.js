@@ -1,17 +1,17 @@
-//import 'babel-polyfill';   
-// import React from 'react';
-// import ReactDOM from 'react-dom';
+import 'babel-polyfill';   
+import React from 'react';
+import ReactDOM from 'react-dom';
 // import {Provider} from 'react-redux';
 // import {createStore} from 'redux';
-// import allReducers from '../components/red.js';
-// import App from './components/app'
+// import allReducers from './reducers';  //default file is './reducers/index.js'
+import App from './components/app';
 
-// const store = createStore(allReducers);
+//const store = createStore(allReducers);
 
-// ReactDOM.render(
+ReactDOM.render(
+//  <Provider store={store}>
+    <App />,
+//  </Provider>, 
+  document.getElementById('root')
+);
 
-// // <Provider store ={store}>
-// //   <App />
-// // </Provider>, document.getElementById('root'));
-
-// <App />, document.getElementById('root'));
