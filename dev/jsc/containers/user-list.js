@@ -16,4 +16,12 @@ class UserList extends Component {
   }
 }
 
+// function mapStateToProps(state) {
+//   return (
+//     users: state.users
+//   );
+// }
+
+// export default connect(mapStateToProps)(UserList);
+
 export default UserList;
