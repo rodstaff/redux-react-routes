@@ -6,6 +6,7 @@ import React from 'react';
 const App = () => (
   <div>
     <h2>Username List:  Rodk</h2>
+    <hr />
     <h2>User Details: OK!</h2>
   </div>
 );
