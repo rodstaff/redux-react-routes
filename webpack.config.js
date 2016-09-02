@@ -1,35 +1,40 @@
 var webpack = require('webpack');
+var path = require('path');
 
 module.exports = {
   devServer: {
-    publicPath: '/bsrc/js',    
-    filename: 'bundle.js',     //localhost:8089/webpack-dev-server/bsrc/jsbundle.js
-    host: '0.0.0.0',
+    inline: true,   
+  //contentBase: '/', 
+    publicPath: '/',    
     port: 8089
   },
-  entry: './dev/jsc', 
-  output: {
-        path: './bsrc/js',
-        filename: 'bundle.js'  //react-articles/bsrc/js/bundle.js when running 'webpack'
-    }, 
+  devtool: 'inline-source-map',
+  entry: './dev/js', 
   module: {
     loaders: [
-      {
+    {
        exclude: /node_modules/,
        test: /\.js$/,
        loader:  'babel-loader',
        query: {
          presets: ['react', 'es2015', 'stage-0'],
-         plugins: ['react-html-attrs', 'transform-class-properties', 'transform-decorators-legacy']
+         plugins: [
+           'react-html-attrs', 
+           'transform-class-properties', 
+           'transform-decorators-legacy'
+         ]
        }
+     },
+      {
+       test: /\.scss/,
+       loader: 'style-loader!css-loader!sass-loader'
       }
-      // {
-      //   test: /\.scss/,
-      //   loader: 'style-loader|css-loader|sass-loader'
-      // }
     ]
   },
-  devtool:  'inline-source-map',
+  output: {
+    path: 'src/js',
+    filename: 'bundle.js'  
+  },
   plugins: [
   new webpack.optimize.DedupePlugin(),
   new webpack.optimize.OccurrenceOrderPlugin()
