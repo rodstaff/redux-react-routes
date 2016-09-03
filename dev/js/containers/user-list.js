@@ -4,6 +4,7 @@ import {connect} from 'react-redux'
 import {selectUser} from '../actions'
 
 class UserList extends React.Component {
+
   createListItems() {
     return (
       this.props.users.map((user) => {
