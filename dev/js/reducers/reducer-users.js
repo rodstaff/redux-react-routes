@@ -5,7 +5,7 @@ export default function() {
       first: "Tom",
       last: "Wayne",
       age: 23,
-      description: "He is cool",
+      description: "he is cool.",
       thumbnail: "http://blablabla.com/asdf1.jpg"
     },
     {
@@ -13,7 +13,7 @@ export default function() {
       first: "Jerry",
       last: "Brown",
       age: 31,
-      description: "He is cooler",
+      description: "he is cooler.",
       thumbnail: "http://blablabla.com/asdf2.jpg"
     },
     {
@@ -21,7 +21,7 @@ export default function() {
       first: "Steven",
       last: "Seronen",
       age: 43,
-      description: "He is coolest",
+      description: "he is coolest!",
       thumbnail: "http://blablabla.com/asdf3.jpg"
     }
   ]
