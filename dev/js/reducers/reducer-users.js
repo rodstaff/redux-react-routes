@@ -15,7 +15,6 @@ export default function() {
       age: 31,
       description: "He is cooler",
       thumbnail: "http://blablabla.com/asdf2.jpg"
-
     },
     {
   	  id: 3,
