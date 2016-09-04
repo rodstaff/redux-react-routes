@@ -1,22 +1,26 @@
 {
   "name": "react-redux",
   "version": "1.0.0",
+  "description": "",
   "main": "",
+  "keywords": [],
+  "author": "",
+   "license": "ISC",
+   
   "scripts": {
     "wbp": "webpack",
     "go": "webpack-dev-server",
     "dev": "webpack-dev-server --progress --colors --hot --inline"
   },
-  "license": "ISC",
   "dependencies": {
     "history": "^1.17.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
-    "react-router": "^2.7.0",
-    
     "react-addons-test-utils": "^15.1.0",
-    "react-redux": "^4.4.5",
+    "react-router": "^2.7.0",
     "react-transform-hmr": "^1.0.4",
+    
+    "react-redux": "^4.4.5",
     "redux": "^3.5.2",
     "redux-logger": "^2.6.1",
     "redux-promise": "^0.5.3",
