@@ -6,10 +6,10 @@ import UserDetail from '../containers/user-detail'
 
 const App = () => (
   <div>
-    <h2>Ninja Turtles List:</h2>
+    <h2>Famous Persons List:</h2>
     <UserList />
     <hr />
-    <h2>Teenager Bio:</h2>
+    <h2>Bio:</h2>
     <UserDetail />
   </div>
 );
