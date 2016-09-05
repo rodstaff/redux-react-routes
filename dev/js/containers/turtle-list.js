@@ -1,7 +1,6 @@
 import React from 'react'
 import {bindActionCreators} from 'redux'
 import {connect} from 'react-redux'
-import {selectUser} from '../actions'
 import {selectTurtle} from '../actions/turtle'
 
 class TurtleList extends React.Component {
@@ -11,7 +10,7 @@ class TurtleList extends React.Component {
       this.props.turtles.map((turtle) => {
   	    return (
           <li key={turtle.id}
-            onClick={() => this.props.selectUser(turtle)}
+            onClick={() => this.props.selectTurtle(turtle)}
           > 
             {turtle.name} 
           </li>

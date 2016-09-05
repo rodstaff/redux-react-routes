@@ -1,11 +1,11 @@
-export const selectUser = (turtle) => {
+export const selectTurtle = (turtle) => {
 
   // console.log("You clicked on user: ", 
   // 	user.first + ", " + 
   // 	user.description
   // );
   return {
-  	type: "USER_SELECTED",
+  	type: "TURTLE_SELECTED",
   	payload: turtle
   };
 };
