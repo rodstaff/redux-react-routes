@@ -2,7 +2,8 @@ var webpack = require('webpack');
 var path = require('path');
 
 module.exports = {
-  entry: './dev/js', 
+//  entry: './dev/js', 
+  entry: './routes', 
   output: {
     path: 'src/js',
     filename: 'bundle.js'  

@@ -1,4 +1,5 @@
 # redux-turtles-routes
+This is a learning experiment...
 
 This is the "routes" branch.  It will add the react-routes to redux.
 
