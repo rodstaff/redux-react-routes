@@ -37,16 +37,3 @@ function matchDispatchToProps(dispatch) {
   );
 }
 export default connect(mapStateToProps, matchDispatchToProps)(UserList);
-
-//   render() {
-//     return (
-//       <ul>
-//         <li>ein</li>
-//         <li>twei</li>
-//         <li>drei</li>
-//       </ul>
-//     );
-//   }
-// }
-// export default UserList;
-
