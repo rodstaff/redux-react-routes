@@ -1,6 +1,13 @@
 import React from 'react'
 import {connect} from 'react-redux'
 
+//alternative code
+@connect((state) => {    
+  return {                           
+  user: state.activeUser
+  };
+})
+
 class UserDetail extends React.Component {
 
     render() {
@@ -17,9 +24,11 @@ class UserDetail extends React.Component {
   	  );
     }
 }
-function mapStateToProps(state) {
-  return {
-    user: state.activeUser
-  };
-}
-export default connect(mapStateToProps)(UserDetail);
+export default UserDetail;
+
+// function mapStateToProps(state) {
+//   return {
+//     user: state.activeUser
+//   };
+// }
+// export default connect(mapStateToProps)(UserDetail);

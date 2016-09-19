@@ -1,7 +1,7 @@
 # redux-turtles-routes
 This is a learning experiment...
 
-This is the "routes" branch.  It will add the react-routes to redux.
+This is the "routes" branch.  It will add and MERGE the react-routes to redux 'store'.
 
 This repository has two branches:
 
