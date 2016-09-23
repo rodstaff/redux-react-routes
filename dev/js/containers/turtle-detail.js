@@ -1,6 +1,13 @@
 import React from 'react'
 import {connect} from 'react-redux'
 
+//alternative code
+@connect((state) => {    
+  return {                           
+  turtle: state.activeTurtle
+  };
+})
+
 class TurtleDetail extends React.Component {
 
     render() {
@@ -17,9 +24,10 @@ class TurtleDetail extends React.Component {
   	  );
     }
 }
-function mapStateToProps(state) {
-  return {
-    turtle: state.activeTurtle
-  };
-}
-export default connect(mapStateToProps)(TurtleDetail);
+export default TurtleDetail;
+// function mapStateToProps(state) {
+//   return {
+//     turtle: state.activeTurtle
+//   };
+// }
+// export default connect(mapStateToProps)(TurtleDetail);
