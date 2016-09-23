@@ -1,9 +1,9 @@
 import React from 'react'
-// import store from '../dev/js/store'
+import store from '../dev/js/store'
 
-// store.subscribe( () => {
-//   console.log("Store changed", store.getState())
-// });
+store.subscribe( () => {
+console.log("Store changed", store.getState())
+});
 
 // store.dispatch({type: "ADD_USER_NAME", payload: "Rod"})
 // store.dispatch({type: "ADD_USER_AGE", payload: 23})
