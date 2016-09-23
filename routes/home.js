@@ -6,7 +6,7 @@ console.log("Store changed", store.getState())
 });
 
 store.dispatch({type: "ADD_USER_NAME", payload: "Rod"})
-// store.dispatch({type: "ADD_USER_AGE", payload: 23})
+store.dispatch({type: "ADD_USER_AGE", payload: 23})
 
 export const Home = () => (
   <div>
