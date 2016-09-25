@@ -2,12 +2,14 @@
 
 ##A.  This is an app that combines and modifies three tutorials:
 
-1) Beginner's Guide to React Router by Nader Dabit
-     link:  https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.kqiojxwpe
-2) React JS/Redux Tutorial (#1-#11) by Bucky Roberts
-     link: youtube = https://www.youtube.com/watch?v=DiLVAXlVYR0
-3) "react-router-redux" plugin by Tim Dorr
-     link:  https://github.com/reactjs/react-router-redux
+*1) [Beginner's Guide to React Router by Nader Dabit]
+    (https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.kqiojxwpe)
+
+*2) [React JS/Redux Tutorial (#1-#11) by Bucky Roberts]
+    (https://www.youtube.com/watch?v=DiLVAXlVYR0)
+
+*3) ["react-router-redux" plugin by Tim Dorr]
+    (https://github.com/reactjs/react-router-redux)
 
 ##B.  Requirements
 
@@ -46,7 +48,6 @@ I have included a considerable number of dependencies in this app as a working t
 ```
 $npm install
 ```
-
 and all the dependencies in the package.json file will be downloaded inside the ‘node_modules’ folder which will automatically be created by npm.
 
 ###D2.  Scripts: “wbp”, “go” and “dev”
@@ -55,7 +56,6 @@ If you wish to run the code using only the browser, use the following command in
 ```
 $npm run wbp
 ```
-
 (webpack will take some seconds to complete execution) then 
 ```
 $open src/js/bundle.js  
@@ -66,7 +66,6 @@ If you wish to run the code using a background server, use the following:
 ```
 $npm run dev
 ```
-
 then in your browser, type
 ```
 localhost: 8089
