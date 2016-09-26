@@ -1,8 +1,8 @@
 #redux-react-routes
 
-The purpose of this simple app is to understand how Redux builds a framework around React so that as the size and complexity of the app increases, it becomes much easier to manage and debug the code by managing a single source of state called a 'store'.  Please note that this app is not intended as a step-by-step tutorial, rather as another source of template where you can build much bigger apps from.
+The purpose of this simple app is to understand how Redux builds a framework around React so that as the size and intricacy of the app increases, it becomes much easier to manage and debug the code by managing a single source of state called a 'store'.  Please note that this app is not intended as a step-by-step tutorial, rather as a template.  Although looking very innocently simple, this app can be used as a building block to create much bigger apps with more complexity!
 
-##A.  This app uses the three tutorials below as reference:
+##A.  This app uses three tutorials below as reference:
 
 1) [Beginner's Guide to React Router by Nader Dabit]
     (https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.kqiojxwpe)
@@ -38,7 +38,7 @@ All states are stored in one single consolidated store and changes are only init
 ###C4.  React uses a virtual DOM
 Only those DOMs that are updated are rendered speeding up loading times.
 
-The advantage of the Redux-React combination only manifests itself when applications reach a certain level of complexity and size; i.e. when there is a strong tendency for ‘spaghetti code’ to creep in and slowing down loading times respectively.  In other words, by managing changes in states from a single ‘store’, tracking where the changes and which states are effected become so much easier.  In addition, with the use of React virtual DOMs, only those states that change are updated without rerendering the whole DOM!
+The advantage of the Redux-React combination only manifests itself when applications reach a certain level of complexity and size; i.e. when there is a strong tendency for ‘spaghetti code’ to creep in and slowing down loading times respectively.  In other words, by managing changes in states from a single store, tracking where the changes and which states are effected become so much easier.  In addition, with the use of React virtual DOMs, only those states that change are updated without rerendering the whole DOM!
 
 ##D. Package Json 
 
@@ -76,7 +76,7 @@ you can change the port number inside webpack.config.js
 
 ###E1.  Entry File
 
-If you choose ‘./dev/js’, the entry file defaults to ‘/dev/js/index.js’ and the code will execute without the routing.  Now, if you choose ‘./routes/‘, the entry file defaults to ‘./routes/index.js’ and the code will execute the react-redux app with routing.  Here you will see how I combined two separate codes from two different authors into one!
+If you choose ‘./dev/js’, the entry file defaults to ‘/dev/js/index.js’ and the code will execute without the routing.  Now, if you choose ‘./routes/‘, the entry file defaults to ‘./routes/index.js’ and the code will execute the react-redux app with routing.  Here you will see how I combined two separate codes into one!
 
 ###E2.  Output File
 

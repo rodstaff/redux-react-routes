@@ -12,7 +12,7 @@ class UserDetail extends React.Component {
 
     render() {
       if (!this.props.user) {
-        return (<h4>Select your favorite Hero...</h4>);
+        return (<h4>Select your favorite famous person...</h4>);
       };
   	  return (
         <div>
