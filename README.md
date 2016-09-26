@@ -1,17 +1,21 @@
-#redux-turtles-routes
+#redux-react-routes
 
-##A.  This is an app that combines and modifies three tutorials:
+##A.  This app uses the three tutorials below as reference:
 
-*1) [Beginner's Guide to React Router by Nader Dabit]
+1) [Beginner's Guide to React Router by Nader Dabit]
     (https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.kqiojxwpe)
 
-*2) [React JS/Redux Tutorial (#1-#11) by Bucky Roberts]
+2) [React JS/Redux Tutorial (#1-#11) by Bucky Roberts]
     (https://www.youtube.com/watch?v=DiLVAXlVYR0)
 
-*3) ["react-router-redux" plugin by Tim Dorr]
+3) ["react-router-redux" plugin by Tim Dorr]
     (https://github.com/reactjs/react-router-redux)
 
 ##B.  Requirements
+An important note:  Any tutorial requires some basic experience in coding so a complete beginner may find some degree of frustration in making the code execute properly the first time around even by diligently following the steps provided.  That is, many free online tutorial creators assume some “basic knowledge” and therefore ignore some steps or assume that their readers will have understood the folder structure, how certain commands work or will have done some further reading on the development environment, among others.  This is oftentimes an inevitable consequence as each author is approaching the subject from a certain angle and ignore some steps to—-believe it or not—-actually simplify his/her presentation!  Now, I am not an expert in ReactJS nor Redux; however, with some patience and inspiration, I have managed to make the code work.  Doing so makes it much easier to understand how Redux manages React states via a consolidated ‘store’ from where React renders views via Redux reducers. It may sound complicated at first, but by repeated reflection, the concept slowly sinks in and that 'Aha' moment will come soon enough.
+
+You may want to work on a tutorial that already has the React, Redux, and Routing parts already combined.  It is probably best to do a simple React tutorial at first then proceed to do the ones listed above.  This will enable you to see each individual parts separately and how they operate when combined.  Feel free to clone this repository if you wish.
+Note that cloning instructions will be omitted here.  You can easily google that yourself...
 
 ###B1.  Basic knowledge:
 React.js, Node.js, functional programming in JavaScript, ES5, Webpack, CSS and html.  
@@ -19,21 +23,16 @@ React.js, Node.js, functional programming in JavaScript, ES5, Webpack, CSS and h
 ###B2.  Development Environment:  
 NodeJS Package Manager (npm) 
 
-An important note:  The three tutorials written above require some basic experience in coding so some total beginners may find some degree of frustration in making the code execute properly the first time around even by diligently following the steps provided.  That is, many free online tutorial creators assume some “basic knowledge” and therefore ignore some steps or assume that their readers will have understood the folder structure, how certain commands work or will have done some further reading on the development environment, among others.  This is oftentimes an inevitable consequence as each author is approaching the subject from a certain angle and ignore some steps to—-believe it or not—-actually simplify his/her presentation!  Now, I am not an expert in ReactJS nor Redux; however, with some patience and inspiration, I have managed to make the code work while attempting to understand how Redux manages React states via a consolidated ‘store’ from where React renders views via Redux reducers.  
-
-You may want to work on a tutorial that already has the React, Redux, and Routing parts already combined.  My approach however, will enable you to see each individual parts separately and how they operate when combined.  Feel free to clone this repository if you wish.
-Note that cloning instructions will be omitted here.  You can easily google that…
-
 ##C.  Guide to understanding how Redux manages complexity and how React fits with it.
 
-###C1.  Redux Basic [Cyclical] Structure:  
-Store, Actions, Components, Containers, Reducers, Store, ...  You will also see this structure on how the folders in the app directory are organized.
+###C1.  Redux Basic Structure:  
+Store, Actions, Components, Containers, Reducers.  This framework is actually reflected by how the folders and files in the app directory are organized.
 
 ###C2.  Redux States:
-Redux manages ‘states’ and passes these states to React as ‘props’.  In other words, in the React-Redux combination, Redux completely removes the management of states from React!
+In the React-Redux combination, Redux completely takes the management of states from React.  In other words, the former stores and updates all ‘states’ but passes them to the latter as ‘props’.
 
 ###C3.  Changes in states:  
-All states are stored in one single consolidated store and changes are only initiated via Actions (JavaScript functions) with the use of Redux-React ‘dispatches’ and updated by via Reducers (also JavaScript functions).
+All states are stored in one single consolidated 'store' and changes are only initiated via Actions (JavaScript functions) with the use of Redux-React ‘dispatches’ and updated by via Reducers (also JavaScript functions).
 
 ###C4.  React uses a virtual DOM
 Only those DOMs that are updated are rendered speeding up loading times.
@@ -80,7 +79,21 @@ If you choose ‘./dev/js’, the entry file defaults to ‘/dev/js/index.js’,
 
 ###E2.  Output File
 
-Take some careful attention how webpack.config.js is written and configured; otherwise, this will cause you hours or even days of head-scratching trying to figure out why your code wouldn’t work.  For example, if you decide to use your browser to run the code, the output path and filename will determine where the compiled bundle.js file will go.  This is where you will have to open the browser from.  Now, if you choose to run a server in the background, the output file will be found after ‘localhost: portnumber/…bundle.js’ in your browser window.  In other words, be very mindful of your folder or directory tree structure so imports, as another example, are actually pointing to the right places.
+Take some careful attention how webpack.config.js is written and configured; otherwise, this will cause you hours or even days of head-scratching trying to figure out why your code wouldn’t work.  For example, if you decide to use your browser to run the code, the output path and filename will determine where the compiled bundle.js file will go.  This is where you will have to open the browser from.  Now, if you choose to run a server in the background, the output file will be found after ‘localhost: portnumber/…bundle.js’ in your browser window.  In other words, be very mindful of your folder or directory tree structure so imports, as another example, are actually pointing to the right places.  For reference, please see a portion of webpack.config.js below:
+```
+module.exports = {
+  entry: './dev/js', 
+//  entry: './routes', 
+  output: {
+    path: 'src/js',
+    filename: 'bundle.js'  
+  },
+  devServer: {
+    inline: true,   
+    publicPath: '/',    
+    port: 8089
+  },
+  ```
 
 ###Happy coding!
 
