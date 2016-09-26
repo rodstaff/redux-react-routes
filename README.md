@@ -98,5 +98,5 @@ module.exports = {
 
 ###Happy coding!
 
-
+Acknowledgement:  Special thanks to Karim Butt of GlossGenius for inspiring me to take the first-step in this React-Redux journey and also for his feedback.
 
