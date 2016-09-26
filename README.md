@@ -97,7 +97,8 @@ Any tutorial requires some basic experience in coding so a complete beginner may
 
 You may alternatively want to begin working on a tutorial that already has the React, Redux, and Routing parts already combined.  However, it is probably best to do a simple React tutorial at first then proceed to do the ones listed above.  This will enable you to see each individual parts separately and how they operate when combined.  Feel free to clone this repository if you wish.  Note that cloning instructions will be omitted here.  You can easily google that yourself...
 
-##G.  Acknowledgement:  Special thanks to Karim Butt of GlossGenius for inspiring me to take the first-step in this React-Redux journey and also for his feedback.
+##G.  Acknowledgement:  
+Special thanks to Karim Butt of GlossGenius for inspiring me to take the first-step in this React-Redux journey and also for his feedback.
 
 ###Happy coding!
 
