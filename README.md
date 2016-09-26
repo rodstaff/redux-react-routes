@@ -4,21 +4,21 @@ The purpose of this simple app is to understand how Redux builds a framework aro
 
 ##A.  Requirements
 
-###A1.  Basic Knowledge Required:
+###A1.  Basic Knowledge Required
 React.js, Node.js, functional programming in JavaScript, ES5, Webpack, CSS and html.  
 
-###A2.  Development Environment:  
+###A2.  Development Environment 
 NodeJS Package Manager (npm) 
 
 ##B.  Guide to understanding how Redux manages complexity and how React fits with it.
 
-###B1.  Redux Basic Structure:  
-Store, Actions, Components, Containers, Reducers.  This framework is actually reflected by how the folders and files in the app directory are organized.
+###B1.  Redux Basic [One-Way Loop] Structure  
+Store -> Actions -> Components -> Containers -> Reducers -> Store -> ...  This dynamic framework is actually reflected by how the folders and files in the app directory are organized and prevents 'spaghetti code' from occurring when the complexity and size of the app increases.
 
-###B2.  Redux States:
+###B2.  Redux States
 In the React-Redux combination, Redux completely takes the management of states from React.  In other words, the former stores and updates all ‘states’ but passes them to the latter as ‘props’.
 
-###B3.  Changes in states:  
+###B3.  Changes in states 
 All states are stored in one single consolidated store and changes are only initiated via Actions (JavaScript functions) with the use of Redux-React ‘dispatches’ and updated by via Reducers (also JavaScript functions).
 
 ###B4.  React uses a virtual DOM
@@ -81,7 +81,7 @@ module.exports = {
     port: 8089
   },
   ```
-##E.  This app uses three tutorials below as reference:
+##E.  This app uses three tutorials below as reference
 
 1) [Beginner's Guide to React Router by Nader Dabit]
     (https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.kqiojxwpe)
@@ -97,7 +97,7 @@ Any tutorial requires some basic experience in coding so a complete beginner may
 
 You may alternatively want to begin working on a tutorial that already has the React, Redux, and Routing parts already combined.  However, it is probably best to do a simple React tutorial at first then proceed to do the ones listed above.  This will enable you to see each individual parts separately and how they operate when combined.  Feel free to clone this repository if you wish.  Note that cloning instructions will be omitted here.  You can easily google that yourself...
 
-##G.  Acknowledgement:  
+##G.  Acknowledgement
 Special thanks to Karim Butt of GlossGenius for inspiring me to take the first-step in this React-Redux journey and also for his feedback.
 
 ###Happy coding!
