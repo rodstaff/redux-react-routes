@@ -1,6 +1,6 @@
 #redux-react-routes
 
-The purpose of this simple app is to understand how Redux builds a framework around React so that as the size and intricacy of the app increases, it becomes much easier to manage and debug the code by managing a single source of state called a 'store'.  Please note that this app is not intended as a step-by-step tutorial, rather as a template.  Although looking very innocently simple, this app can be used as a building block to create much bigger apps with more complexity!
+The purpose of this simple app is to understand how Redux builds a framework around React so that as the size and intricacy of the app increases, it becomes much easier to manage and debug the code by managing a single source of state called a 'store'.  Please note that this app is not intended as a step-by-step tutorial, rather as a template.  Although looking very innocently simple, this app can be used as a building block to create much bigger apps with more complexity!  This is my personal purpose.  For the sake of brevity, moreover, I have only chosen certain topics that most occupied me when I building this demo app hoping that the reader may get something out of it.
 
 ##A.  Requirements
 
@@ -36,7 +36,7 @@ $npm install
 ```
 and all the dependencies in the package.json file will be downloaded inside the ‘node_modules’ folder which will automatically be created by npm.
 
-###C2.  Scripts: “wbp”, “go” and “dev”
+###C2.  Scripts: “wbp” and “dev”
 
 If you wish to run the code using only the browser, use the following command in your terminal inside your working directory:
 ```
