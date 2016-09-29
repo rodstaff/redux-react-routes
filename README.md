@@ -92,6 +92,8 @@ module.exports = {
 3) ["react-router-redux" plugin by Tim Dorr]
     (https://github.com/reactjs/react-router-redux)
 
+4) [Deploying your React app to Heroku with Webpack](http://ditrospecta.com/javascript/react/es6/webpack/heroku/2015/08/08/deploying-react-webpack-heroku.html)
+
 ##F.  Notes on the tutorials above
 Any tutorial requires some basic experience in coding so a complete beginner may find some degree of frustration in making the code execute properly the first time around even by diligently following the steps provided.  That is, many free online tutorial creators assume some “basic knowledge” and therefore may ignore some steps or assume that their readers will have understood the folder structure, how certain commands work or will have done some further reading on the development environment, among others.  This is oftentimes an inevitable consequence as each author is approaching the subject from a certain angle and ignore some steps to—-believe it or not—-actually simplify his/her presentation!  Now, you may find your code not working for so many reasons some of which are implied above.  However, with some patience, persistence and inspiration, make it a priority to make your code work first.  In other words, making sure that the development environment is working and the code is running as it is suppose to and that will most certainly make it much easier to understand how React fits in the Redux framework.  
 

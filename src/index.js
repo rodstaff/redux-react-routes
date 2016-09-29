@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import {Provider} from 'react-redux'
 
-import App from './app.js'
+import App from '../routes/app.js'
 import store from '../dev/js/store'
 
 ReactDOM.render(
