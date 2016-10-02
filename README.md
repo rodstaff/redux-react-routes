@@ -81,7 +81,7 @@ module.exports = {
     port: 8089
   },
   ```
-##E.  This app uses mainly three (but there were more) sources below as reference
+##E.  This app was inspired by many sources and three are listed below
 
 1) [Beginner's Guide to React Router by Nader Dabit]
     (https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.kqiojxwpe)
