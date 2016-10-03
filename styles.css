@@ -1,0 +1,13 @@
+body {
+  background-color: #FFCC00;
+  padding: 20px;
+  margin: 0;
+}
+h1, h2, p, ul, li {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.active {
+  color: white;  /*color:#53acff*/
+  font-size: 20px;
+  border-top: 3px solid green;
+}

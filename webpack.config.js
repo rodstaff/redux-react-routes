@@ -29,11 +29,11 @@ module.exports = {
            'transform-object-rest-spread'
          ]
        }
-     },
-      {
-       test: /\.scss/,
-       loader: 'style-loader!css-loader!sass-loader'
-      }
+     }
+      // {
+      //  test: /\.scss/,
+      //  loader: 'style-loader!css-loader!sass-loader'
+      // }
     ]
   },
   plugins: [
