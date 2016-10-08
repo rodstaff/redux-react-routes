@@ -1,6 +1,6 @@
-import React from 'react'
-import CompUser from './comp-user'
-import CompTurtle from './comp-turtle'
+import React from 'react';
+import CompUser from './comp-user';
+import CompTurtle from './comp-turtle';
 //require('../../scss/style.scss');
 
 
