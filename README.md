@@ -38,17 +38,15 @@ and all the dependencies in the package.json file will be downloaded inside the 
 
 ###C2.  Scripts: “wbp” and “dev”
 
-If you wish to run the code using only the browser, use the following command in your terminal inside your working directory:
+Please take a look at the package.json file for the script command arguments.  Using these scripts, you can basically do development with the browser or with a background server.  If you wish to run the code using only the browser, use the following command in your terminal inside your working directory:
 ```
 $npm run wbp
 ```
-(webpack will take some seconds to complete execution) then 
+(webpack will take some seconds to create the bundle.js file) then 
 ```
-$open ./src/js/bundle.js  
+$open index.html  
 ```
-this route is declared inside the webpack.config.js file
-
-If you wish to run the code using a background server, use the following:
+Now, if, however, you wish to run the code using a background server, use the following:
 ```
 $npm run dev
 ```
