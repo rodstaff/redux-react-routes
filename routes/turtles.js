@@ -1,5 +1,5 @@
-import React from 'react'
-import CompTurtle from '../dev/js/components/comp-turtle'
+import React from 'react';
+import CompTurtle from '../dev/js/components/comp-turtle';
 
 export const Turtles = (props) => (
   <div>

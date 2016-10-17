@@ -1,5 +1,5 @@
-import React from 'react'
-import CompUser from '../dev/js/components/comp-user'
+import React from 'react';
+import CompUser from '../dev/js/components/comp-user';
 
 export const User = () => (
   <div>

@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import {Router, Route, Link, IndexLink, IndexRoute, hashHistory, 
-        browserHistory, DefaultRoute} from 'react-router'
+        browserHistory, DefaultRoute} from 'react-router';
 
 export const Container = (props) => (
   <div>
