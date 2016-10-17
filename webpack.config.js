@@ -5,7 +5,7 @@ module.exports = {
   //entry: './dev/js', 
   entry: './routes', 
   output: {
-    path: 'src/js',
+    path: './bsrc',
     filename: 'bundle.js'  
   },
   devServer: {
