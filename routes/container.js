@@ -1,6 +1,5 @@
-import React from 'react';
-import { Router, Route, Link, IndexLink, IndexRoute, hashHistory, 
-        browserHistory, DefaultRoute } from 'react-router';
+import React from 'react'
+import { IndexLink } from 'react-router'
 
 export const Container = (props) => (
   <div>

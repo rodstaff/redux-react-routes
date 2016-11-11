@@ -1,7 +1,7 @@
-import React from 'react';
-import { bindActionCreators } from 'redux';
-import { connect } from 'react-redux';
-import { selectTurtle } from '../actions/turtle';
+import React from 'react'
+import { bindActionCreators } from 'redux'
+import { connect } from 'react-redux'
+import { selectTurtle } from '../actions/turtle'
 
 class TurtleList extends React.Component {
 
