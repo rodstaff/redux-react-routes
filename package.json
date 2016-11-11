@@ -8,7 +8,7 @@
   "license": "",
   "scripts": {
     "wbp": "webpack",
-    "dev": "webpack-dev-server --progress --colors --hot --inline"
+    "dev": "webpack-dev-server --progress --colors --hot --inline --content-base public/"
   },
   "dependencies": {
     "axios": "^0.14.0",
