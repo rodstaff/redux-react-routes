@@ -79,24 +79,5 @@ module.exports = {
     port: 8089
   },
   ```
-##E.  This app was inspired by many sources and three are listed below
-
-1) [Beginner's Guide to React Router by Nader Dabit]
-    (https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.kqiojxwpe)
-
-2) [React JS/Redux Tutorial (#1-#11) by Bucky Roberts]
-    (https://www.youtube.com/watch?v=DiLVAXlVYR0)
-
-3) ["react-router-redux" plugin by Tim Dorr]
-    (https://github.com/reactjs/react-router-redux)
-
-##F.  Notes on the tutorials above
-Any tutorial requires some basic experience in coding so a complete beginner may find some degree of frustration in making the code execute properly the first time around even by diligently following the steps provided.  That is, many free online tutorial creators assume some “basic knowledge” and therefore may ignore some steps or assume that their readers will have understood the folder structure, how certain commands work or will have done some further reading on the development environment, among others.  This is oftentimes an inevitable consequence as each author is approaching the subject from a certain angle and ignore some steps to—-believe it or not—-actually simplify his/her presentation!  Now, you may find your code not working for so many reasons some of which are implied above.  However, with some patience, persistence and inspiration, make it a priority to make your code work first.  In other words, making sure that the development environment is working and the code is running as it is suppose to and that will most certainly make it much easier to understand how React fits in the Redux framework.  
-
-You may alternatively want to begin working on a tutorial that already has the React, Redux, and Routing parts already combined.  However, it is probably best to do a simple React tutorial at first then proceed to do the ones listed above.  This will enable you to see each individual parts separately and how they operate when combined.  Feel free to clone this repository if you wish.  Note that cloning instructions will be omitted here.  You can easily google that yourself...
-
-##G.  Acknowledgement
-Special thanks to Karim Butt of GlossGenius for inspiring me to take the first-step in this React-Redux journey and also for his feedback.
-
 ###Happy coding!
 
